@@ -1,2 +1,2 @@
-# Projetos-Python 
-Atividades em Python passados pela faculdade
+# Projetos-Web
+Projetos pessoais voltado para web
