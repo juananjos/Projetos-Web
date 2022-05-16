@@ -1,0 +1,156 @@
+body{
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, brown, coral);
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 35px;
+}
+
+.logo span{
+    color: darkred;
+}
+.image1 img {
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-radius:250px;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.area-title h3{
+    color: white;
+    font-weight: normal;
+}
+.area-title h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -18px;
+}
+.area-title a{
+    display: inline-block;
+    background-color: darkred;
+    padding: 15px 30px;
+    color: #f2ffe1;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-cards h2{
+    color: white;
+    text-transform: lowercase;
+    font-size: 40px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.card iframe {
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.section-3{
+    background-color:darkred;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.area-title-2 h1{
+    color: white;
+    font-size: 40px;
+}
+.area-title-2 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -30px;
+}
+.area-title-2 a{
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px 85px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.image2 img{
+    width: 355px;
+    height: auto;
+    margin-top:5px;
+    margin-left: 100px;
+}
+.area-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.area-form h2{
+    color: white;
+    text-align: center;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.formulario input{
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: black;
+    font-family: 'Oswald';
+}
+input::placeholder{
+    color: dimgray;
+    text-transform: uppercase;
+}
+input[type="submit"]{
+    background-color: firebrick;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 50px;
+    cursor: pointer;
+}
+footer{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social h3{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+.social img{
+    width: 40px;
+    margin-left: 15px;
+}
